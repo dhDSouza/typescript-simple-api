@@ -1,0 +1,35 @@
+{
+  "name": "typescript-simple-api",
+  "version": "1.0.0",
+  "description": "Uma API Rest simples com TypeScript e banco de dados relacional MySQL.",
+  "main": "server.ts",
+  "scripts": {
+    "start": "ts-node-dev src/server.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dhDSouza/typescript-simple-api"
+  },
+  "keywords": [
+    "typescript",
+    "api-rest",
+    "mysql"
+  ],
+  "author": "Daniel Henrique de Souza",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dhDSouza/typescript-simple-api/issues"
+  },
+  "homepage": "https://github.com/dhDSouza/typescript-simple-api#readme",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mysql2": "^3.11.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^22.5.0",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.5.4"
+  }
+}
